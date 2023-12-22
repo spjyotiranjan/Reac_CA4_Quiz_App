@@ -1,0 +1,110 @@
+.quizBody{
+    margin: 1vw auto;
+    width: 60%;
+    height: 35vw;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 2vw;
+}
+.QuestionCount{
+    color: white;
+    align-self: flex-start;
+}
+
+.Question{
+    text-align: center;
+}
+.buttonDiv{
+    width: 80%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10%;
+    row-gap: 30%;
+}
+.buttonDiv button{
+    height: 4vw;
+    border-radius: 2vw;
+    font-size: 1vw;
+    background: rgba(255, 255, 255, 0.32);
+    box-shadow: 0px 0px 2vw 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s;
+    padding: 0.5vw 1vw;
+}
+.buttonDiv button:hover{
+    transform: scale(1.02);
+}
+.actionButton{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    
+}
+.actionButton button{
+    padding: 0vw 1vw;
+    height: 2.7vw;
+    border-radius: 0.5vw;
+    border: none;
+    font-size: 1.1vw;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.actionButton button:hover{
+    transform: scale(1.02);
+}
+.actionButton button:nth-child(2){
+    background: linear-gradient(97deg, #D80707 -23.09%, #5B0000 89.5%, rgba(96, 4, 59, 0.00) 157.91%)
+}
+
+@media screen and (max-width: 768px){
+    .quizBody{
+        margin: 8vw auto;
+        width: 90%;
+        height: 50vw;
+    }
+    .buttonDiv{
+        gap: 5%;
+    }
+    .buttonDiv button{
+        height: 6vw;
+        border-radius: 3.5vw;
+        font-size: 1.4vw;
+    }
+    .actionButton button{
+        font-size: 1.6vw;
+        padding: 0vw 2vw;
+        height: 3.8vw;
+        border-radius: 1vw;
+    }
+}
+@media screen and (max-width: 426px){
+    .quizBody{
+        height: 70vh;
+        margin-top: 10vw;
+    }
+    .buttonDiv{
+        grid-template-columns: 1fr;
+        width: 65%;
+        height: 50%;
+    }
+    .buttonDiv button{
+        height: 8vw;
+        border-radius: 4vw;
+        font-size: 2.7vw;
+    }
+    .actionButton{
+        width: 50%;
+    }
+    .actionButton button{
+        font-size: 3vw;
+        padding: 0 5vw;
+        height: 8vw;
+    }
+}
+

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.dark{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(61.37% 61.37% at 100% 35.99%, rgba(189, 0, 255, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(69.75% 69.74% at 4.75% 28.6%, rgba(0, 224, 255, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(62.35% 62.35% at 50% 81.69%, rgba(97, 0, 255, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(85.41% 85.41% at 50% -2.73%, rgba(97, 0, 255, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), #030817;
+}
+.light{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(67.19% 67.19% at 50% 112.44%, rgba(0, 255, 56, 0.20) 0%, rgba(0, 255, 56, 0.00) 100%), radial-gradient(50.04% 50.04% at 100% 49.96%, rgba(255, 122, 0, 0.20) 0%, rgba(255, 122, 0, 0.00) 100%), radial-gradient(46.91% 46.91% at 0% 29.27%, rgba(0, 41, 255, 0.20) 0%, rgba(0, 209, 255, 0.00) 82.33%), radial-gradient(49.96% 49.96% at 50% 0%, rgba(0, 255, 117, 0.20) 0%, rgba(0, 255, 117, 0.00) 100%), #E5FCFF;}
+
